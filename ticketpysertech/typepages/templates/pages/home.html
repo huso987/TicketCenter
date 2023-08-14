@@ -1,11 +1,35 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
     <title>Document</title>
+    
+    
 </head>
 <body>
-    <h1>sf</h1>
+    <nav class="navbar" >
+       <a id="title-img" href="/" class="cont-nav" >
+         <img class="imgpyser" src=" {% static 'images/pysertechnewlogo.jpeg' %} " alt="">
+         <h1 class="web-title">Ticket Center</h1>
+       </a>
+       
+    </nav>
+    <nav class="categ">
+        <a id="ctgr" class="home" href="">Home</a>
+        <a id="ctgr" class="newticket" href="/NewTicket">Open New Ticket</a>
+        <a id="ctgr"  class="statusticket" href="/TicketStatus">Check Ticket Status</a>
+    </nav>
+    <div class="homeiçeriği">
+        <a class="solr" href="">
+            <img   class="sol" src="{% static 'images/newticket.jpeg' %}" alt="">
+        </a>
+        <a  class="sagr" href="">
+            <img class="sağ" src="{% static 'images/statusticket.jpeg' %}" alt="">
+        </a>
+    </div>
+    
 </body>
 </html>

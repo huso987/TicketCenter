@@ -1,0 +1,87 @@
+.navbar {
+  
+    height: 80px;
+}
+
+.cont-nav {
+   position: relative;
+ 
+   width: 192px;
+   height: 90px;
+   left: 50px;
+}
+
+.imgpyser {
+    height: 60px;
+    
+}
+#title-img {
+    text-decoration: none;
+   
+    
+}
+.web-title {
+    position: relative;
+    left: 150px;
+    top: -80px;
+    font-size: 30px;
+    color: #404143;
+    width: 240px;
+    
+    
+}
+
+.categ {
+    background-color: #404143;
+    position: relative;
+    top: -10px;
+    left: -8px;
+    width: 1292px;
+    height: 30px;
+}
+
+.home {
+    color: #dfa84f;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    left: 120px;
+
+}
+.newticket {
+    color: #dfa84f;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    left: 180px;
+}
+
+.statusticket {
+    color: #dfa84f;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    left: 240px;
+}
+
+#ctgr:hover {
+ 
+ text-decoration: underline #dfa84f;
+ text-underline-position:below;
+}
+
+.homeiçeriği {
+   
+    width: 1200px;
+    position: relative;
+    top: 50px;
+    background-color: #dfa84f;
+    
+}
+
+.sol {
+    height: 250px;
+}
+.sağ {
+    height: 250px;
+}
