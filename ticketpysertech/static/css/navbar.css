@@ -1,6 +1,7 @@
 .navbar {
   
     height: 80px;
+    width: 1200px;
 }
 
 .cont-nav {
@@ -32,50 +33,58 @@
 }
 
 .categ {
-    background-color: #404143;
+    background-color: #a9a9a9; 
     position: relative;
     top: -10px;
     left: -8px;
     width: 1292px;
-    height: 30px;
+    height: 40px;
 }
 
 .home {
-    color: #dfa84f;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
     position: relative;
     left: 120px;
-
+    top: 6px;
+    font-weight: bold;
 }
 .newticket {
-    color: #dfa84f;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
     position: relative;
     left: 180px;
+    top: 6px;
+    font-weight: bold;
 }
 
 .statusticket {
-    color: #dfa84f;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
     position: relative;
     left: 240px;
+    top: 6px;
+    font-weight: bold;
 }
+
+
 
 #ctgr:hover {
  
- text-decoration: underline #dfa84f;
+ text-decoration: underline #000000;
  text-underline-position:below;
 }
+
 
 .homeiçeriği {
    
     width: 1200px;
     position: relative;
     top: 50px;
-    background-color: #dfa84f;
+    left: 80px;
     
 }
 
@@ -84,4 +93,63 @@
 }
 .sağ {
     height: 250px;
+}
+
+.footer {
+     background-color: #a9a9a9; 
+    position: relative;
+    top: 200px;
+    left: -8px;
+    width: 1292px;
+    height: 400px;
+}
+
+.infooter {
+    background-color: #79cdcd; 
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+#title {
+    position: relative;
+    left: 270px;
+}
+
+#turkey {
+    
+    width: 150px;
+}
+#usa {
+    
+    width: 150px;
+    position: relative;
+    left: 500px;
+    top: -70px;
+    
+}
+#europe {
+    
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 270px;
+    top: -35px;
+}
+#info {
+    
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 70px;
+}
+#support {
+    
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 370px;
+    top: -35px;
 }
