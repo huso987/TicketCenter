@@ -10,3 +10,9 @@ def newticket(request):
 
 def statusticket(request):
     return render(request, "pages/statusticket.html")
+
+def getlogin(request):
+    return render(request, "pages/login.html")
+
+def getregister(request):
+    return render(request, "pages/register.html")

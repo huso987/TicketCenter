@@ -10,18 +10,7 @@
     
 </head>
 <body>
-    <nav class="navbar" >
-       <a id="title-img" href="/" class="cont-nav" >
-         <img class="imgpyser" src=" {% static 'images/pysertechnewlogo.jpeg' %} " alt="">
-         <h1 class="web-title">Ticket Center</h1>
-       </a>
-       
-    </nav>
-    <nav class="categ">
-        <a id="ctgr" class="home" href="">Home</a>
-        <a id="ctgr" class="newticket" href="/NewTicket">Open New Ticket</a>
-        <a id="ctgr"  class="statusticket" href="/TicketStatus">Check Ticket Status</a>
-    </nav>
+    {% include 'partials/_navbar.html' %}
     <div class="homeiçeriği">
         <a class="solr" href="">
             <img   class="sol" src="{% static 'images/newticket.jpeg' %}" alt="">
@@ -30,41 +19,7 @@
             <img class="sağ" src="{% static 'images/statusticket.jpeg' %}" alt="">
         </a>
     </div>
-    <div class="footer">
-          <div class="info">
-              <p class="text">"Your Issues, Our Solutions"</p>
-          </div>
-          
-          <div class="link">
-            <a  href="#" target="_blank">
-                <img id="fbk" src="{% static 'images/facebook.png' %}" alt="">
-            </a>
-            <a   href="#" target="_blank">
-                <img  id="twr" src="{% static 'images/twitter.png' %}" alt="">
-            </a>
-            <a  href="#" target="_blank">
-                <img  id="lkn" src="{% static 'images/linkedin.png' %}" alt="">
-            </a>
-            <a  href="https://pysertech.com/" target="_blank">
-                <img  class="pyserkare" src="{% static 'images/pyserkare.png' %}" alt="">
-            </a>
-          </div>
-          <div class="infooter">
-            <h2 id="title">Contact Us</h2>
-            <img id="turkey" src="{% static 'images/turkey.png' %}" title="Turkey" alt="">
-            <img id="portugal" src="{% static 'images/portugal.png' %}" title="Portugal" alt="">
-            <img id="usa" src="{% static 'images/united-states.png' %}" title="Usa" alt="">
-            <p class="infomail">info@pyser.tech</p>
-            <p class="supportmail">24/7 client support support@pyser.tech </p>
-            
-          </div>
-          
-         <p class="lisans">
-            © 2023 PyserTech - <a href="http://aweb.com.tr" target="_blank">Developed by <b>Hüseyin Doğdu</b></a>
-         </p>
-            
-        
-    </div>
+    {% include 'partials/_footer.html' %}
     
 </body>
 </html>

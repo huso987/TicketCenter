@@ -1,0 +1,16 @@
+{% load static %}
+<nav class="navbar" >
+    <a id="title-img" href="/" class="cont-nav" >
+      <img class="imgpyser" src=" {% static 'images/pysertechnewlogo.jpeg' %} " alt="">
+      <h1 class="web-title">Ticket Center</h1>
+    </a>
+    <div class="user">
+      <a class="register" href="/Register">Register</a> |
+      <a class="login" href="/Login">Login</a>
+    </div>
+ </nav>
+ <nav class="categ">
+     <a id="ctgr" class="home" href="http://127.0.0.1:8000">Home</a>
+     <a id="ctgr" class="newticket" href="/NewTicket">Open New Ticket</a>
+     <a id="ctgr"  class="statusticket" href="/TicketStatus">Check Ticket Status</a>
+ </nav>

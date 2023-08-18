@@ -96,19 +96,17 @@
 }
 
 .footer {
-    background-color: #a9a9a9;  
     position: relative;
-    top: 100px;
+    top: 50px;
     left: -8px;
     width: 1292px;
     height: 260px;
 }
 
 .infooter {
-    background-color: #2465e9;
     width: 500px;
     position: relative;
-    top: -100px;
+    top: -50px;
     left: 100px;
 }
 
@@ -122,6 +120,8 @@
 .info {
     background-color: #070606; 
     height: 40px;
+    position: relative;
+    top: 50px;
 
 }
 .text {
@@ -163,11 +163,11 @@
 }
 
 .link {
-    background-color: #2465e9;
+    
     width: 300px;
     position: relative;
     left: 800px;
-    top: 50px;
+    top: 100px;
 }
 
 #fbk{
@@ -195,10 +195,35 @@
 
 .lisans {
     color: orange;
-    background-color: #070606;
     width: 500px;
     font-size: 15px;
     position: relative;
-    top: -100px;
+    text-align: center;
+    left: 400px;
 }
 
+#ld {
+    color: #000000;
+}
+
+.register {
+   color:orange ;
+
+}
+.register:active {
+    color: #000000;
+}
+.login {
+    color: #000000;
+
+}
+.login:active {
+    color: orange;
+}
+.user {
+    width: 140px;
+    position: relative;
+    left: 1100px;
+    top: -150px;
+
+}
