@@ -33,7 +33,7 @@
 }
 
 .categ {
-    background-color: #a9a9a9; 
+    background-color: #070606; 
     position: relative;
     top: -10px;
     left: -8px;
@@ -42,7 +42,7 @@
 }
 
 .home {
-    color: #000000;
+    color: #e6e6e6;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -51,7 +51,7 @@
     font-weight: bold;
 }
 .newticket {
-    color: #000000;
+    color: #e6e6e6;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -61,7 +61,7 @@
 }
 
 .statusticket {
-    color: #000000;
+    color: #e6e6e6;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -74,7 +74,7 @@
 
 #ctgr:hover {
  
- text-decoration: underline #000000;
+ text-decoration: underline #ffffff;
  text-underline-position:below;
 }
 
@@ -96,60 +96,109 @@
 }
 
 .footer {
-     background-color: #a9a9a9; 
+    background-color: #a9a9a9;  
     position: relative;
-    top: 200px;
+    top: 100px;
     left: -8px;
     width: 1292px;
-    height: 400px;
+    height: 260px;
 }
 
 .infooter {
-    background-color: #79cdcd; 
-    width: 700px;
-    height: 300px;
+    background-color: #2465e9;
+    width: 500px;
     position: relative;
-    top: 50px;
+    top: -100px;
     left: 100px;
 }
 
 #title {
     position: relative;
-    left: 270px;
+    left: 275px;
 }
 
-#turkey {
-    
-    width: 150px;
+
+
+.info {
+    background-color: #070606; 
+    height: 40px;
+
 }
-#usa {
-    
-    width: 150px;
+.text {
+  
+    width: 400px;
+    color: #e6e6e6;
+    font-size: 20px;
     position: relative;
-    left: 500px;
-    top: -70px;
-    
+    left: 480px;
 }
-#europe {
-    
-    width: 150px;
-    text-align: center;
+#turkey {
+    width: 50px;
+    position: relative;
+    left: 230px; 
+}
+#portugal {
+    width: 50px;
     position: relative;
     left: 270px;
-    top: -35px;
 }
-#info {
-    
-    width: 150px;
-    text-align: center;
+#usa {
+    width: 50px;
     position: relative;
-    left: 70px;
+    left: 310px;
 }
-#support {
-    
+
+.infomail {
     width: 200px;
-    text-align: center;
     position: relative;
-    left: 370px;
-    top: -35px;
+    left: 250px;
+    text-align: center;
+
 }
+.supportmail {
+    width: 200px;
+    position: relative;
+    left: 250px;
+    text-align: center;
+}
+
+.link {
+    background-color: #2465e9;
+    width: 300px;
+    position: relative;
+    left: 800px;
+    top: 50px;
+}
+
+#fbk{
+  width: 40px;
+  
+}
+
+#twr {
+    width: 40px;
+    position: relative;
+    left: 20px;
+}
+
+#lkn {
+    width: 40px;
+    position: relative;
+    left: 40px;
+}
+
+.pyserkare {
+    width: 100px;
+    position: relative;
+    left: 80px;
+}
+
+.lisans {
+    color: orange;
+    background-color: #070606;
+    width: 500px;
+    font-size: 15px;
+    position: relative;
+    top: -100px;
+}
+
