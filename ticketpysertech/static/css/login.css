@@ -1,0 +1,68 @@
+.login_part{
+  
+    width: 500px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+
+.log {
+    
+    width: 200px;
+    size: 50px;
+    position: relative;
+    left: 140px;
+}
+
+#pw {
+    position: relative;
+    left: 55px;
+}
+#tuş {
+    position: relative;
+    left: 140px;
+    top: 10px;
+    background-color: orange;
+}
+
+.ataç {
+  
+    position: relative;
+    top: 200px;
+    height: 289px;
+    left: -10px;
+    width: 1294px;
+}
+
+.githb {
+    width: 100px;
+    position: relative;
+    left: 350px;
+    top: 50px;
+    
+}
+.link-hub {
+    color: black;
+    position: relative;
+    left: 470px;
+    top: -40px;
+   
+    width: 400px;
+}
+
+#link-tüm {
+    text-decoration: none;
+}
+
+#homel {
+   
+    position: relative;
+    top: 100px;
+    left: 530px;
+}
+#registerl {
+    
+    position: relative;
+    top: 100px;
+    left: 530px;
+}
