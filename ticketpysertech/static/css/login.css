@@ -16,11 +16,15 @@
 
 #pw {
     position: relative;
-    left: 55px;
+    left: 64px;
+}
+#şpw {
+    position: relative;
+    left: 64px;
 }
 #tuş {
     position: relative;
-    left: 140px;
+    left: 150px;
     top: 10px;
     background-color: orange;
 }
@@ -55,13 +59,13 @@
 }
 
 #homel {
-   
+    color: orange;
     position: relative;
     top: 100px;
     left: 530px;
 }
 #registerl {
-    
+    color: orange;
     position: relative;
     top: 100px;
     left: 530px;
